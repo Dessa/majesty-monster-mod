@@ -1,3 +1,0 @@
-Goblin Mod
-
-Makes Goblins buildable. This is a proof of concept for making a "Monster Mod".
