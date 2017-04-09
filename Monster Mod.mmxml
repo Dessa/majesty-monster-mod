@@ -1,0 +1,23 @@
+<Majesty>
+	<Mod id="{310D643F-A52C-4EA6-899B-279B0A699146}">
+		<Name>MonsterMod</Name>
+		<DisplayName lang="en_US">Monster Mod</DisplayName>
+		<Description lang="en_US">
+			<Short>A mod that allows the player to recruit monsters as heroes.</Short>
+			<Long/>
+		</Description>
+		<DataConfiguration>
+			<Dataset base="Any">
+				<Load>
+					<GPL>
+						<Target>Data\MonsterMod.bcd</Target>
+						<Source>GPL\MonsterMod_Building_Data.dat</Source>
+						<Source>GPL\MonsterMod_Hero_Data.dat</Source>
+					</GPL>
+					<Descriptions>Data\MonsterMod_Buildings.xml</Descriptions>
+					<Descriptions>Data\MonsterMod_Characters.xml</Descriptions>
+				</Load>
+			</Dataset>
+		</DataConfiguration>
+	</Mod>
+</Majesty>

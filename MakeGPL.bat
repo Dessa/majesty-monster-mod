@@ -5,9 +5,9 @@ set SRC=GPL
 rem Where the compiled code will go
 set DEST=Data
 rem The name of the compiled GPL byte code.
-set OUTPUTNAME=GoblinMod.bcd
+set OUTPUTNAME=MonsterMod.bcd
 rem The project file that defines what files will be compiled
-set GPLPROJECTFILE=GoblinMod.gplproj
+set GPLPROJECTFILE=MonsterMod.gplproj
 
 set GPLBCC=""
 rem Is the compiler in the Quest's source directory?

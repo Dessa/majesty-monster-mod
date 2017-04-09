@@ -1,5 +1,8 @@
 set DESTROOT=%HOMEDRIVE%%HOMEPATH%\Documents\My Games\MajestyHD\Mods
-set DEST=%DESTROOT%\SDK\Goblin Mod
+set DEST=%DESTROOT%\SDK\Monster Mod
+
+:: Remove the current mod directories if they exist (to avoid copy errors).
+@RD /S /Q "%DEST%"
 
 mkdir "%DEST%"
 mkdir "%DEST%\Data"
