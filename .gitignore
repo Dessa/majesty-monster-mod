@@ -1,0 +1,5 @@
+# built by Gplbcc.exe
+*.bcd
+
+# the batch file supports putting the exe here so don't ship it
+*.exe
